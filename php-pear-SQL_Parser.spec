@@ -25,7 +25,7 @@ variety of sources (mSQL, CPAN's SQL-Statement, mySQL). It also
 includes a tokenizer (lexer) class and a reimplementation of the ctype
 extension in PHP.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ta klasa jest przede wszystkim parserem SQL-a, napisanym pod wp³ywem
