@@ -2,17 +2,17 @@
 %define		_class		SQL
 %define		_subclass	Parser
 %define		_status		devel
-
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - an SQL Parser
 Summary(pl):	%{_pearname} - parser SQL-a
 Name:		php-pear-%{_pearname}
-Version:	0.3
+Version:	0.4
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
-# Source0-md5:	816263d9d9a0c590edc7098a2771738a
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	e83af66d397a1864d5222e6ec54dd3c2
 URL:		http://pear.php.net/package/SQL_Parser/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -48,6 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/tests/*
+%doc %{_pearname}-%{version}/tests
 %dir %{php_pear_dir}/%{_class}
 %{php_pear_dir}/%{_class}/*.php
