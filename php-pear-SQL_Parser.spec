@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - an SQL Parser
 Summary(pl):	%{_pearname} - parser SQL-a
 Name:		php-pear-%{_pearname}
-Version:	0.4
+Version:	0.5
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	e83af66d397a1864d5222e6ec54dd3c2
+# Source0-md5:	a5b76c31e1914f5b1ce605d9d52c1751
 URL:		http://pear.php.net/package/SQL_Parser/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
