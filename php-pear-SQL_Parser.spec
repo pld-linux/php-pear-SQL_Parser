@@ -6,7 +6,7 @@ Summary:	%{_pearname} - an SQL Parser
 Summary(pl):	%{_pearname} - parser SQL-a
 Name:		php-pear-%{_pearname}
 Version:	0.1
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -21,6 +21,11 @@ This class is primarily an SQL parser, written with influences from a
 variety of sources (mSQL, CPAN's SQL-Statement, mySQL). It also
 includes a tokenizer (lexer) class and a reimplementation of the ctype
 extension in PHP.
+
+%description -l pl
+Ta klasa jest przede wszystkim parserem SQL-a, napisanym pod wp³ywem
+wielu ¼róde³ (mSQL, SQL-Statement z CPAN, mySQL). Zawiera tak¿e klasê
+tokenizera (leksera) i w³asn± implementacjê rozszerzenia ctype z PHP.
 
 %prep
 %setup -q -c
