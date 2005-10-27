@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - parser SQL-a
 Name:		php-pear-%{_pearname}
 Version:	0.5
 Release:	3
+Epoch:		0
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
