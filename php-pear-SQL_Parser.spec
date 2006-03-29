@@ -8,7 +8,7 @@ Summary:	%{_pearname} - an SQL Parser
 Summary(pl):	%{_pearname} - parser SQL-a
 Name:		php-pear-%{_pearname}
 Version:	0.5
-Release:	3
+Release:	4
 Epoch:		0
 License:	LGPL
 Group:		Development/Languages/PHP
