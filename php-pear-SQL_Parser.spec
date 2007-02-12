@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an SQL Parser
-Summary(pl):	%{_pearname} - parser SQL-a
+Summary(pl.UTF-8):   %{_pearname} - parser SQL-a
 Name:		php-pear-%{_pearname}
 Version:	0.5
 Release:	4
@@ -30,16 +30,16 @@ extension in PHP.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ta klasa jest przede wszystkim parserem SQL-a, napisanym pod wp³ywem
-wielu ¼róde³ (mSQL, SQL-Statement z CPAN, mySQL). Zawiera tak¿e klasê
-tokenizera (leksera) i w³asn± implementacjê rozszerzenia ctype z PHP.
+%description -l pl.UTF-8
+Ta klasa jest przede wszystkim parserem SQL-a, napisanym pod wpÅ‚ywem
+wielu ÅºrÃ³deÅ‚ (mSQL, SQL-Statement z CPAN, mySQL). Zawiera takÅ¼e klasÄ™
+tokenizera (leksera) i wÅ‚asnÄ… implementacjÄ™ rozszerzenia ctype z PHP.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -48,7 +48,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
