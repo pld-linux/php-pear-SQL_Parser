@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an SQL Parser
-Summary(pl.UTF-8):   %{_pearname} - parser SQL-a
+Summary(pl.UTF-8):	%{_pearname} - parser SQL-a
 Name:		php-pear-%{_pearname}
 Version:	0.5
 Release:	4
@@ -39,7 +39,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
