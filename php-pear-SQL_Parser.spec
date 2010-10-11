@@ -5,7 +5,7 @@ Summary:	%{_pearname} - an SQL Parser
 Summary(pl.UTF-8):	%{_pearname} - parser SQL-a
 Name:		php-pear-%{_pearname}
 Version:	0.6.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -53,5 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log
 %doc docs/*
 %{php_pear_dir}/.registry/*.reg
+%dir %{php_pear_dir}/SQL
 %{php_pear_dir}/SQL/Parser.php
 %{php_pear_dir}/SQL/Parser
