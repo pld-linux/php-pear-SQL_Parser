@@ -1,0 +1,11 @@
+--- SQL_Parser-0.6.0/usr/share/pear/SQL/Parser/Lexer.php~	2011-09-21 08:13:37.000000000 +0300
++++ SQL_Parser-0.6.0/usr/share/pear/SQL/Parser/Lexer.php	2011-09-21 08:15:54.680062140 +0300
+@@ -24,8 +24,6 @@
+ // $Id$
+ //
+ 
+-include dirname(__FILE__) . '/ctype.php';
+-
+ // {{{ token definitions
+ // variables: 'ident', 'sys_var'
+ // values:    'real_val', 'text_val', 'int_val', null
