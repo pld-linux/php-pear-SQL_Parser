@@ -1,6 +1,5 @@
 %define		status		devel
 %define		pearname	SQL_Parser
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - an SQL Parser
 Summary(pl.UTF-8):	%{pearname} - parser SQL-a
 Name:		php-pear-%{pearname}
