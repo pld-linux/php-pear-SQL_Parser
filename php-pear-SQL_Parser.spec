@@ -36,7 +36,7 @@ Ta klasa ma w PEAR status: %{status}.
 
 %prep
 %pear_package_setup
-%patch0 -p1
+%patch -P0 -p1
 
 install -d docs
 mv .%{php_pear_dir}/data/SQL_Parser/TODO docs
